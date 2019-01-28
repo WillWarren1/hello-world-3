@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "name": "hello-world-3",
+  "homepage": "https://hello-world-3-.netlify.com",
+  "scripts": {
+    "deploy": "netlify deploy --prod --dir=public",
+    "postdeploy": "echo 'Your site was deployed to https://hello-world-3-.netlify.com'",
+    "start": "browser-sync start --server 'public' --files 'public'"
+  },
+  "installConfig": {
+    "pnp": true
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "stylelint": "^9.10.1",
+    "stylelint-config-standard": "^18.2.0"
+  }
+}
